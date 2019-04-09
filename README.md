@@ -60,5 +60,5 @@ Edit the file *xenserver_vars.yml* and run
 or
 
 `ansible-playbook -i hosts --limit xen01 xenserver-vm-deploy.yml -e
-"hostname=vm01 vm_name=vm01 vps_type=VM-S sr_name=ssd_storage dnsservers=8.8.8.8
+"hostname=vm01 vm_name=vm01 vps_type=VM-S sr_name=ssd_storage
 vcpu_count=2 vm_template='Debian9_template'"`
