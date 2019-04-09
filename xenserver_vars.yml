@@ -1,13 +1,9 @@
 ---
 hostname: vm01
-domainname: example.com
-gateway: 192.168.2.1
-dnsservers: "8.8.8.8"
 network_name: "Pool-wide network associated with eth0"
 sr_name: "Local storage"
-vm_template: "debian9_template"
+vm_template: "Debian9_template"
 vm_name: "vm01"
-ipaddress: 192.168.2.88
 vps_type: VM-S
 runtime_environment: testing
 vcpu_count: 2
