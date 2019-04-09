@@ -71,6 +71,5 @@ Edit the file *xenserver_vars.yml* and run
 or
 
 `ansible-playbook -i hosts --limit xen01 xenserver-vm-deploy.yml -e
-"hostname=vm01 domainname=example.com gateway=192.168.1.1 vm_name=vm01
-ipaddress=192.168.1.10 vps_type=VM-S sr_name=ssd_storage dnsservers=8.8.8.8
-vcpu_count=2 vm_template='Ubuntu Xenial Xerus 16.04 (64-bit)'"`
+"hostname=vm01 vm_name=vm01 vps_type=VM-S sr_name=ssd_storage dnsservers=8.8.8.8
+vcpu_count=2 vm_template='Debian9_template'"`
