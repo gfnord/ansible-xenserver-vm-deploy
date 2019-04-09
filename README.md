@@ -34,13 +34,9 @@ addresses is planned.
 The following variables are required:
 
 - `hostname`
-- `domainname`
-- `gateway`
 - `vm_name`
-- `ipaddress`
 - `vps_type`
 - `sr_name`
-- `dnsservers`
 - `vm_template`
 
 The following variables has sane defaults, set by the VPS types CSV
