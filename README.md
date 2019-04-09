@@ -1,17 +1,10 @@
 # Readme for Xenserver vm deploys
 
-This repo contains Ansible plays that can do automated installs of
-Debian and Ubuntu on Xenserver. A VMWare play is in the works.
+This repo contains Ansible plays that can do automated installs of a template.
 
 ## Automated installs on Xenserver
 
 This section contains info about automated installations on Xenserver, using Ansible.
-
-### Supported distros
-
-- Debian Jessie 8.0
-- Debian Stretch 9.0
-- Ubuntu Xenial Xerus 16.04
 
 ### Predefined VM flavours
 
