@@ -1,6 +1,5 @@
 [local]
-localhost ansible_python_interpreter=/usr/local/opt/python/libexec/bin/python
+#localhost ansible_python_interpreter=/usr/local/opt/python/libexec/bin/python
 
 [xenservers]
-xen01
-xen02
+xcp-ng-01
